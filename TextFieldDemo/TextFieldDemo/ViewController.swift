@@ -22,7 +22,7 @@ class ViewController: UIViewController, UITextFieldDelegate
     
     func decreaseRealValue()
     {
-        intValue = intValue / 10
+        intValue = intValue / oneDecimalPlace
     }
     
     func isNumericChar(charPressed:String) -> Bool
